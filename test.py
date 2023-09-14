@@ -1,2 +1,9 @@
-a = '12345'
-print(a[4:0:-1])
+a=[None for _ in range(10)]
+
+
+
+
+
+print(a[1])
+print(a[2])
+print(a[3])

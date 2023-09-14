@@ -1,0 +1,7 @@
+1. Empty list resolve
+2. Creat hash map (use space to relink)
+3. hash_map = [20000] use + 10000 to deal with negative number 
+Ex: If the number is -10000 , we will add 10000 on it which can relocate in [0] 
+4. First check the location doesn't have any value (None)
+
+IF have value : Link to it head
