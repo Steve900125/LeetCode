@@ -1,9 +1,7 @@
-a=[None for _ in range(10)]
+nums = [1,2,3]
 
+print(hex(id(nums)))
 
+nums.append(5)
 
-
-
-print(a[1])
-print(a[2])
-print(a[3])
+print(hex(id(nums)))
