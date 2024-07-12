@@ -1,3 +1,9 @@
+class a:
+    def b(self):
+        print("b")
+        return 1
+    def c(self):
+        return self.b()
 
-for i in reversed(range(10)):
-    print(i)
+item = a()
+item.c()
