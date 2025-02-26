@@ -1,9 +1,12 @@
-class a:
-    def b(self):
-        print("b")
-        return 1
-    def c(self):
-        return self.b()
+from typing import List
 
-item = a()
-item.c()
+
+if __name__ == "__main__":
+    nums = [[1,2,3],[4,5,6]]
+    print(nums[0][2])
+   
+    
+    
+    
+    
+   
